@@ -1,0 +1,20 @@
+name: pysnowpark
+channels:
+  - https://repo.anaconda.com/pkgs/snowflake
+  - nodefaults
+dependencies:
+  - python=3.8
+  - pip
+  - pip:
+  # Snowpark
+    - snowflake-snowpark-python[pandas]
+  # Basics
+    - pandas==1.4.3
+    - numpy==1.22.3
+  # Lab1
+    - cloudpickle==2.0.0
+    - cachetools==4.2.2
+  # Lab2
+  # Lab3
+  # Misc
+    - jupyter
